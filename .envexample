@@ -1,7 +1,0 @@
-SECRET_KEY = 'django-insecure-$-x08wdbvybpvm7q5wn8x_a9nn0&&^am9b&#yq#&ybmkewo*o)'
-DEBUG = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = #correo electronico para enviar los emails
-EMAIL_HOST_PASSWORD = #contraseña de app que debes sacar en la parte de seguridad de tu correo electronico
