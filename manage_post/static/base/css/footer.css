@@ -4,7 +4,7 @@
     justify-content: center;
     margin-top: 3%;
     height: 40px;
-    background: #030e18;
+    background: #F50E0E;
 }
 
 .pie {
@@ -13,7 +13,7 @@
 }
 
 .pie a {
-    color: #FFF;
+    color: #F50E0E;
     font-size: 11px;
     text-transform: uppercase;
     padding: 0 10px;

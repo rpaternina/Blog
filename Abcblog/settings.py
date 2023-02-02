@@ -84,11 +84,23 @@ WSGI_APPLICATION = 'Abcblog.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+#DATABASES = {
+#    'default': dj_database_url.config(
+#        default=config('DATABASE_URL')
+#    )
+#}
 DATABASES = {
-    'default': dj_database_url.config(
-        default=config('DATABASE_URL')
-    )
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'prueba',
+        'USER': 'postgres',
+        'PASSWORD': 'robert',
+        'HOST': 'localhost',
+        'PORT': 5432,
+    }
 }
+
+
 AUTH_USER_MODEL = 'user.User'
 
 # Password validation
